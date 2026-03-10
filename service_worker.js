@@ -1,6 +1,6 @@
 const CACHE_NAME = "cardapio-cache-v1";
 
-const urlsToCache = ["/", "/index.html", "/style.css", "/script.js"];
+const urlsToCache = ["./", "./index.html", "./style.css", "./script.js"];
 
 self.addEventListener("install", function (event) {
   event.waitUntil(
